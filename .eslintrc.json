@@ -1,2 +1,3 @@
 {
+  "extends": "@vinicius-arcanjo/eslint-config/react"
 }
