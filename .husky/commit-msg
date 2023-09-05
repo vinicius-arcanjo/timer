@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-#lint stage
-npx --no-install lint-staged
+npx --no -- commitlint --edit ${1}
